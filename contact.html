@@ -5,22 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portolio</title>
+    <link rel="stylesheet" href="./Assets/Style/Style.css" />
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <header class="header-style">
+      <!-- Navigation bar -->
+      <nav>
+        <ul class="nav-color" id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h2>☎️ Contact information</h2>
-    <div>
-      <a href="mailto:Vitor.edsr@gmail.com">📧 Vitor.edsr@gmail.com</a><br />
-      <a href="https://github.com/insivam">📝 GitHub</a><br />
-      <a href="https://www.linkedin.com/in/vitor-edsr/">🔗 LinkedIn</a><br />
-      <a href="https://discordapp.com/users/507330590467424257">💬 Discord</a>
-    </div>
+    <main>
+      <!-- All my contact information -->
+      <article align="center">
+        <h2 align="center">Contact information</h2>
+        <a href="https://github.com/insivam" target="_blank"
+          ><img
+            src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+            target="_blank"
+            alt="Github"
+        /></a>
+        <a href="https://www.linkedin.com/in/vitor-edsr/" target="_blank"
+          ><img
+            src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+            target="_blank"
+            alt="LinkedIn"
+        /></a>
+        <a href="mailto:vitor.edsr@gmail.com"
+          ><img
+            src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
+            target="_blank"
+            alt="Gmail"
+        /></a>
+        <a
+          href="https://discordapp.com/users/507330590467424257"
+          target="_blank"
+          ><img
+            src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"
+            target="_blank"
+            alt="Discord"
+        /></a>
+      </article>
+      <hr />
+
+      <!-- Way to send me an email -->
+      <article>
+        <h2> Send me an email</h2>
+        <form>
+          <label for="name "> Name: </label><br>
+          <input type="text" id="name">
+
+          <br><br>
+
+          <label for="email"> E-mail: </label><br>
+          <input type="email"  id="email" />
+
+          <br><br>
+
+          <label for="subject"> subject-matter: </label><br>
+          <textarea name="subject" id="subject" cols="60" rows="5"></textarea><br>
+          
+          <button type="submit">Enviar</button>
+        
+        </form>
+
+
+        <h2>Addres:</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4452.8632078613045!2d128.83123978012893!3d37.89187246607195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3561e3d11d0ce1cd%3A0x46293d8e2bd7864!2z7KO866y47KeE67Cp7YyM7KCc!5e0!3m2!1sen!2sbr!4v1653068903430!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </main>
+    <hr>
+
+    <footer align="right"><p> &copy; 2022 Vitor Rodrigues. All Rights Reserved</p></footer>
   </body>
 </html>
